@@ -1,0 +1,149 @@
+
+/*   ---- COLOR PALETTE ---
+    
+     #363636         GRAY
+     #00dcb0         GREEN  
+     #973bb7         PURPLE 
+     #5ec64d         DARK GREEN 
+     #27aae2         BLUE
+     #fec224         YELLOW
+     #eb48c5         PINK
+     #bc68fc         LIGHT PURPLE
+     #ff5555         RED
+
+*/
+
+
+        /* ------  Fonts ------ */
+        @font-face {
+            font-family: 'Cantarell';
+            src: url('../_fonts/Cantarell-Regular-webfont.eot');
+            src: url('../_fonts/Cantarell-Regular-webfont.eot?#iefix') format('embedded-opentype'), url('../_fonts/Cantarell-Regular-webfont.woff') format('woff'), url('../_fonts/Cantarell-Regular-webfont.ttf') format('truetype'), url('../_fonts/Cantarell-Regular-webfont.svg#webfont9UOzsjXz') format('svg');
+            font-weight: normal;
+            font-style:normal;
+        }
+        
+        @font-face {
+            font-family: 'Cantarell';
+            src: url('../_fonts/Cantarell-Oblique-webfont.eot');
+            src: url('../_fonts/Cantarell-Oblique-webfont.eot?#iefix') format('embedded-opentype'), url('../_fonts/Cantarell-Oblique-webfont.woff') format('woff'), url('../_fonts/Cantarell-Oblique-webfont.ttf') format('truetype'), url('../_fonts/Cantarell-Oblique-webfont.svg#webfontRl4nowrT') format('svg');
+            font-weight: normal;
+            font-style:italic;
+        }
+        
+        @font-face {
+            font-family: 'Cantarell';
+            src: url('../_fonts/Cantarell-Bold-webfont.eot');
+            src: url('../_fonts/Cantarell-Bold-webfont.eot?#iefix') format('embedded-opentype'), url('../_fonts/Cantarell-Bold-webfont.woff') format('woff'), url('../_fonts/Cantarell-Bold-webfont.ttf') format('truetype'), url('../_fonts/Cantarell-Bold-webfont.svg#webfontKr2CkGZp') format('svg');
+            font-weight: bold;
+            font-style:normal;
+        }
+        
+        @font-face {
+            font-family: 'Cantarell';
+            src: url('../_fonts/Cantarell-BoldOblique-webfont.eot');
+            src: url('../_fonts/Cantarell-BoldOblique-webfont.eot?#iefix') format('embedded-opentype'), url('../_fonts/Cantarell-BoldOblique-webfont.woff') format('woff'), url('../_fonts/Cantarell-BoldOblique-webfont.ttf') format('truetype'), url('../_fonts/Cantarell-BoldOblique-webfont.svg#webfontQ1aSR0ux') format('svg');
+            font-weight: bold;
+            font-style:italic;
+        }
+        
+        @font-face {
+            font-family: "Cardo";
+            src: url("../_fonts/Cardo99s-webfont.eot");
+            src: url("../_fonts/Cardo99s-webfont.eot?#iefix") format("embedded-opentype"), url("../_fonts/Cardo99s-webfont.woff") format("woff"), url("../_fonts/Cardo99s-webfont.ttf") format("truetype"), url("../_fonts/Cardo99s-webfont.svg#webfontQ5EXXZTZ") format("svg");
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'OstrichSansBold';
+            src: url('../_fonts/ostrich-bold-webfont.eot');
+            src: url('../_fonts/ostrich-bold-webfont.eot?#iefix') format('embedded-opentype'), url('../_fonts/ostrich-bold-webfont.woff') format('woff'), url('../_fonts/ostrich-bold-webfont.ttf') format('truetype'), url('../_fonts/ostrich-bold-webfont.svg#OstrichSansBold') format('svg');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        
+                        /* ------------------------------------------ Global Styles --------------------------------------------- */
+        
+         /* Limited CSS Reset */
+        html, body, div, section, article, aside, header, hgroup, footer, nav, h1, h2, h3, h4, h5, h6, p, blockquote, address, time, span, em, strong, img, ol, ul, li, figure, canvas, video, th, td, tr {
+                margin: 0;
+                padding: 0;
+                border: 0;
+                vertical-align:baseline;
+                font: inherit;
+        }
+        
+        
+         /* HTML5 Display Rule */
+        address, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, nav, menu, nav, section, summary {
+               display: block;
+        }
+        /* -----------------------------------------------main styles-----------------------------*/
+        body{
+            width: 100%;
+            background-color: rgb(11, 121, 101);
+            color: rgb(241, 241, 241);
+        }
+        body section{
+            padding-top: 3rem;
+            padding-left: 4rem;
+        }
+        body section nav ul{
+            padding-bottom: 2rem;
+        }
+        body section nav ul li{
+            list-style: none;
+        }
+        body section nav ul li h3{
+            font-size: 25px;
+            text-transform: capitalize;
+        }
+        body section nav ul li a{
+            text-decoration: none;
+            color: rgb(241, 241, 241);
+            font-size: 22px;
+            line-height: 2rem;
+            text-transform: capitalize;
+        }
+        body section nav section, div {
+            display: inline;
+        }
+        .box input[type = "text"]{
+            width: 450px;
+            height: 60px;
+            font-size: 20px;
+            background-color: rgb(247, 242, 242);
+            text-transform: capitalize;
+            border: none;
+            padding-left: 10px;
+            margin-bottom: 3rem;
+        }
+        .box input[type = "submit"]{
+            width: 220px;
+            height: 60px;
+            font-size: 20px;
+            background-color: rgb(11, 170, 144);
+            text-transform: capitalize;
+            box-shadow: 2px 2px rgb(4, 78, 66);
+            color: #fff;
+            border: none;
+            padding-left: 10px;
+        }
+        body footer div h1{
+            font-size: 30px;
+            text-transform: uppercase;
+            padding-bottom: 1rem;
+        }
+        body footer div{
+            float: right;
+            padding-top: 3rem;
+            padding-right: 15rem;
+        }
+        /* body footer div h1, .box{
+            display: inline;
+        } */
+        /* body footer section nav ul, div .box{
+            display: inline;
+        } */

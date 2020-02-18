@@ -1,0 +1,180 @@
+@charset "UTF-8";
+/*----------------------------------------------------- CSS DOCUMENT --------------------------------------------------------------*/
+/*   ---- LEGAL ---- 
+
+PROJECT: DOOGEE footer webPage
+CLIENT: Doogee int.
+DEVELOPER: Favour
+COMPANY: maxsio softwares
+WEBSITE: maxsio
+CONTACT: www.maxsio.com.ng
+
+*/
+
+/*   ---- COLOR PALETTE ---
+    
+     #363636         GRAY
+     #00dcb0         GREEN  
+     #973bb7         PURPLE 
+     #5ec64d         DARK GREEN 
+     #27aae2         BLUE
+     #fec224         YELLOW
+     #eb48c5         PINK
+     #bc68fc         LIGHT PURPLE
+     #ff5555         RED
+
+*/
+
+
+        /* ------  Fonts ------ */
+@font-face {
+	font-family: 'Cantarell';
+	src: url('../_fonts/Cantarell-Regular-webfont.eot');
+	src: url('../_fonts/Cantarell-Regular-webfont.eot?#iefix') format('embedded-opentype'), url('../_fonts/Cantarell-Regular-webfont.woff') format('woff'), url('../_fonts/Cantarell-Regular-webfont.ttf') format('truetype'), url('../_fonts/Cantarell-Regular-webfont.svg#webfont9UOzsjXz') format('svg');
+	font-weight: normal;
+	font-style:normal;
+}
+
+@font-face {
+	font-family: 'Cantarell';
+	src: url('../_fonts/Cantarell-Oblique-webfont.eot');
+	src: url('../_fonts/Cantarell-Oblique-webfont.eot?#iefix') format('embedded-opentype'), url('../_fonts/Cantarell-Oblique-webfont.woff') format('woff'), url('../_fonts/Cantarell-Oblique-webfont.ttf') format('truetype'), url('../_fonts/Cantarell-Oblique-webfont.svg#webfontRl4nowrT') format('svg');
+	font-weight: normal;
+	font-style:italic;
+}
+
+@font-face {
+	font-family: 'Cantarell';
+	src: url('../_fonts/Cantarell-Bold-webfont.eot');
+	src: url('../_fonts/Cantarell-Bold-webfont.eot?#iefix') format('embedded-opentype'), url('../_fonts/Cantarell-Bold-webfont.woff') format('woff'), url('../_fonts/Cantarell-Bold-webfont.ttf') format('truetype'), url('../_fonts/Cantarell-Bold-webfont.svg#webfontKr2CkGZp') format('svg');
+	font-weight: bold;
+	font-style:normal;
+}
+
+@font-face {
+	font-family: 'Cantarell';
+	src: url('../_fonts/Cantarell-BoldOblique-webfont.eot');
+	src: url('../_fonts/Cantarell-BoldOblique-webfont.eot?#iefix') format('embedded-opentype'), url('../_fonts/Cantarell-BoldOblique-webfont.woff') format('woff'), url('../_fonts/Cantarell-BoldOblique-webfont.ttf') format('truetype'), url('../_fonts/Cantarell-BoldOblique-webfont.svg#webfontQ1aSR0ux') format('svg');
+	font-weight: bold;
+	font-style:italic;
+}
+
+@font-face {
+	font-family: "Cardo";
+	src: url("../_fonts/Cardo99s-webfont.eot");
+	src: url("../_fonts/Cardo99s-webfont.eot?#iefix") format("embedded-opentype"), url("../_fonts/Cardo99s-webfont.woff") format("woff"), url("../_fonts/Cardo99s-webfont.ttf") format("truetype"), url("../_fonts/Cardo99s-webfont.svg#webfontQ5EXXZTZ") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'OstrichSansBold';
+	src: url('../_fonts/ostrich-bold-webfont.eot');
+	src: url('../_fonts/ostrich-bold-webfont.eot?#iefix') format('embedded-opentype'), url('../_fonts/ostrich-bold-webfont.woff') format('woff'), url('../_fonts/ostrich-bold-webfont.ttf') format('truetype'), url('../_fonts/ostrich-bold-webfont.svg#OstrichSansBold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+                /* ------------------------------------------ Global Styles --------------------------------------------- */
+
+ /* Limited CSS Reset */
+html, body, div, section, article, aside, header, hgroup, footer, nav, h1, h2, h3, h4, h5, h6, p, blockquote, address, time, span, em, strong, img, ol, ul, li, figure, canvas, video, th, td, tr {
+		margin: 0;
+		padding: 0;
+        border: 0;
+        vertical-align:baseline;
+        font: inherit;
+}
+
+
+ /* HTML5 Display Rule */
+address, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, nav, menu, nav, section, summary {
+	   display: block;
+}
+/* -----------------------------------------------main styles------------------------------------------------------ */
+body{
+	width: 100%;
+	background-color: rgb(56, 53, 53);
+}
+body footer section{
+	padding-top: 4rem;
+	padding-left: 2rem;
+}
+body footer ul li h1{
+	font-size: 50px;
+	color: #fff;
+	padding-bottom: 1rem;
+}
+.box input[type = "text"]{
+	width: 380px;
+	height: 90px;
+	font-size: 20px;
+	background-color: rgb(247, 242, 242);
+	text-transform: capitalize;
+	border-radius: 4px;
+	border: none;
+	padding-left: 10px;
+	margin-bottom: 3rem;
+}
+.box input[type = "submit"]{
+	width: 120px;
+	height: 90px;
+	font-size: 20px;
+	background-color: rgb(0, 174, 255);
+	text-transform: capitalize;
+	border-radius: 4px;
+	color: #fff;
+	border: none;
+	padding-left: 10px;
+}
+body footer nav ul .box p{
+	font-size: 20px;
+	color: rgb(189, 185, 185);
+}
+body footer nav ul .box p a{
+	text-decoration: none;
+	color: rgb(189, 185, 185);
+}
+body footer section ul li h2{
+	text-transform: capitalize;
+	font-size: 28px;
+	padding-bottom: 2rem;
+	color: #fff;
+}
+body footer section ul li a{
+	text-decoration: none;
+	color: rgb(168, 161, 161);
+	font-size: 25px;
+	line-height: 2.5rem;
+	text-transform: capitalize;
+}
+body footer section ul li{
+	list-style: none;
+}
+body footer section ul{
+	display: block;
+	float: left;
+	padding-right: 5rem;
+	padding-left: .5rem;
+}
+body footer div{
+	padding-top: 28rem;
+	font-size: 25px;
+	color: rgb(168, 161, 161);
+}
+body footer div p:nth-child(2){
+	float: right;
+	text-align: center;
+	padding-right: 2rem;
+}
+body footer div p:nth-child(1) span{
+	color: rgb(12, 165, 236);
+	font-size: 50px;
+}
+body footer div p:nth-child(1){
+	padding-left: 2rem;
+}
+body footer div p:nth-child(1),  p:nth-child(2){
+	display: inline;
+}
